@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Login Form</title>
+	<link rel="stylesheet" href="login.css">
+    <link href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css" rel="stylesheet">
+
+	<script type="text/javascript" href="log.js"></script>
+    
+
+</head>
+<body>
+	<div class="login-form">
+		<h2>Login</h2>
+		<form action="login.jsp">
+			<label for="email">Email:</label>
+			<input type="text" id="email" name="email">
+
+			<label for="password">Password:</label>
+			<input type="password" id="password" name="pass">
+            <div class="form-link">
+                <a href="forget.html" class="forgot-pass">Forgot password?</a>
+            </div>
+			<input type="submit" value="Login" id="submit-btn">
+		</form>
+        <p>Don't have an account? <a href="registration.html">Register now</a></p>
+	</div>
+</body>
+</html>
